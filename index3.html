@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form with reCAPTCHA</title>
+
+    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <style>
+        body{
+            background-color: #f5f2f2;
+        }
+        .container{
+            width: 30%;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+        }
+        form{
+            display: block
+        }
+        .btn
+        {
+            
+            font-size: 15px;
+            box-sizing: border-box;
+            text-align: center;
+            padding: 0%;
+            size-adjust: 20%;
+            
+
+            background-color:rgb(35, 35, 228);
+            border-spacing: 20cap;
+            width: 100%;
+            font-style: normal;
+            font-size:large;
+            font-size-adjust: none;
+            border-color: #ccc;
+            text-decoration: solid;
+            border:#ccc;
+            color: white;
+            padding: 20% auto;
+
+        }
+        button{
+            font-size: 15px;
+            background: rgb(29, 29, 149);
+            width: 100%;
+            border: none;
+            color: white;
+            padding: 10px;
+        }
+        fieldset{
+            border: none;
+            border-top: 2px solid #ccc;
+            margin: 0;
+            padding: 10;
+        
+        }
+        legend{
+            text-align:center;
+            width:3px;
+            color:rgb(79, 69, 69);
+            font-style:normal;
+            width: auto;
+            padding: 2px;
+            
+        }
+        .label{
+            font-size: 15px;
+            text-align: left ;
+        }
+        input{
+            width: 98%;
+            padding: 7px;
+            margin: 10px 0 ;
+            border: 10px auto;
+            border-radius: 1px;
+        }
+        .forgot{
+            text-decoration: none;
+            float: right;
+            color: rgb(38, 38, 156);
+        }
+        p{
+            text-align: center;
+            font-size: 13px;
+            color: grey;
+        }
+        .link{
+            text-decoration: none;
+            color: grey;
+            text-align: center;
+            font-size: 13;
+        }
+        .label
+        {float: left;}
+    </style>    
+</head>
+<body>
+    <div class="container">
+        <b class="btn">Log in with African Leadership University</button>
+
+        <fieldset>
+            <legend>OR</legend>
+
+            <form action="">
+                <label class="label">Email</label>
+                <input type="email" placeholder="Email" class="email" required>
+                <label class="label">Password</label>
+                <input type="password" placeholder="Password">
+                
+                <a href type="http://captive-portal.canalbox.net/">Forgot password?</a>
+                <a class="" href="#"></a>
+
+                
+                <div class="recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+
+                <button>Log in</button>
+
+                <p>This site is protected by reCAPTCHA Enterprise and the Google Privacy Policy and Terms of Service apply.</p>
+                
+                <a href class="https://www.google.com/search?q=how+recaptcha+code+called&oq=how+recaptcha+code+called+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTEyNTE4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" >Having trouble logging in?</a>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
+
+        
+        
