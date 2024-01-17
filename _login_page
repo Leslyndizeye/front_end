@@ -22,7 +22,7 @@
             padding: 10px;
         }
 
-        .cont0 {
+        .container1 {
             border: 1px solid #ccc;
             text-align: center;
             padding: 10px 40px;
@@ -74,18 +74,18 @@
             font-weight: bold;
         }
 
-        .paragraph {
+        .p {
             color: #1d1499;
             margin: 10px 0;
         }
 
-        .link0 {
+        .forgot {
             color: #1d1499;
             font-size: 13px;
             text-decoration: none;
         }
 
-        .cont1 {
+        .container2 {
             border: 1px solid #ccc;
             text-align: center;
             padding: 10px 40px;
@@ -104,7 +104,7 @@
 
     <form action="" class="container">
 
-        <div class="cont0">
+        <div class="container1">
             <!-- Add an image directly without replacing existing text -->
             <img src="https://logos-world.net/wp-content/uploads/2020/05/Instagram-Logo-2016-present.png" alt="Instagram Logo" class="logo-img">
             
@@ -118,13 +118,13 @@
                 <legend class="legend">OR</legend>
             </fieldset>
 
-            <p class="paragraph">Log in with Facebook</p>
+            <p class="p">Log in with Facebook</p>
 
-            <a class="link0" href="">Forgot password?</a>
+            <a class="forgot" href="">Forgot password?</a>
 
         </div>  
 
-        <div class="cont1">
+        <div class="container2">
             <p>Don't have an account? <a class="signup" href="">Sign up</a></p>
         </div>
     </form>
