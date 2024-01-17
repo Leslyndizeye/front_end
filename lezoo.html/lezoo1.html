@@ -3,81 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page - Social Media</title>
+    <title>Instagram Login</title>
 
     <style>
         * {
-            font-family: Arial, sans-serif;
+            font-family: sans-serif;
             box-sizing: border-box;
         }
 
         body {
-            background-color: #e7e3e396;
+            background-color: #cccccc8a;
         }
 
-        .login-container {
-            background: #ffffff;
-            margin: 70px auto;
+        .container {
+            background: white;
+            margin: 60px auto;
             width: 30%;
-            padding: 20px;
-            text-align: center;
+            padding: 10px;
         }
 
-        .login-input {
-            font-size: 16px;
+        .cont0 {
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 10px 40px;
+        }
+
+        .title {
+            font-family: Georgia;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .logo-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .inputs {
+            font-size: 13px;
             padding: 10px;
-            margin: 10px 0;
+            margin: 5px 0;
             width: 100%;
             border: 1px solid #ccc;
-            border-radius: 4px;
+            background-color: #f7f7f7;
+            border-radius: 2px;
         }
 
-        .login-btn-primary {
-            font-size: 17px;
-            padding: 10px 7px;
-            background-color: #0056d2;
-            color: #ffffff;
+        .button {
+            font-size: 15px;
+            padding: 7px;
+            background-color: #2a77e2;
+            color: white;
             border: none;
             width: 100%;
-            border-radius: 4px;
-            margin-bottom: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
         }
 
-        .forgot-link {
-            color: #1d1499;
+        .fieldset {
+            border: none;
+            border-top: 1px solid #ccc;
+            text-align: center;
             font-size: 15px;
-            padding: 10px;
+            margin-bottom: 0;
+        }
+
+        .legend {
+            padding: 20px;
+            color: #6d6c6c;
+            font-weight: bold;
+        }
+
+        .paragraph {
+            color: #1d1499;
+            margin: 10px 0;
+        }
+
+        .link0 {
+            color: #1d1499;
+            font-size: 13px;
             text-decoration: none;
         }
 
-        .login-divider {
-            margin: 20px 10px;
+        .cont1 {
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 10px 40px;
+            margin: 10px 0;
         }
 
-        .login-btn-secondary {
-            text-align: center;
-            font-size: 17px;
-            padding: 10px 7px;
-            background-color: #1dd42c;
-            color: #ffffff;
-            border: none;
-            border-radius: 4px;
-            margin: 10px;
+        .signup {
+            text-decoration: none;
+            color: #0056d2;
+            margin: 8px 0 15px 0;
+            font-size: 15px;
         }
     </style>
 </head>
 <body>
-    <form action="" class="login-container">
-        <input class="login-input" type="email" placeholder="Email or Phone number">
-        <input class="login-input" type="password" placeholder="Password">
 
-        <button class="login-btn-primary">Log in</button>
+    <form action="" class="container">
 
-        <a class="forgot-link" href="https://www.google.com/search?q=how+recaptcha+code+called&oq=how+recaptcha+code+called+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTEyNTE4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank">Forgot password?</a>
+        <div class="cont0">
+            <!-- Add an image directly without replacing existing text -->
+            <img src="https://logos-world.net/wp-content/uploads/2020/05/Instagram-Logo-2016-present.png" alt="Instagram Logo" class="logo-img">
+            
 
-        <hr class="login-divider">
+            <input class="inputs" type="text" placeholder="Phone number, username, or email">
+            <input class="inputs" type="text" placeholder="Password">
 
-        <button class="login-btn-secondary">Create new account</button>
+            <button class="button">Log in</button>
+
+            <fieldset class="fieldset">
+                <legend class="legend">OR</legend>
+            </fieldset>
+
+            <p class="paragraph">Log in with Facebook</p>
+
+            <a class="link0" href="">Forgot password?</a>
+
+        </div>  
+
+        <div class="cont1">
+            <p>Don't have an account? <a class="signup" href="">Sign up</a></p>
+        </div>
     </form>
+
 </body>
 </html>
