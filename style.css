@@ -1,0 +1,165 @@
+body{
+    background: grey;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+form{
+    max-width: 380px;
+    padding: 10px;
+    margin:50px auto;
+    background: white;
+
+}
+.inputs{
+    width: 100%;
+    padding: 10px;
+    margin:10px auto;
+    border: 1px solid lightgray;
+
+}
+.ndizeye{
+    width: 100%;
+    padding: 10px;
+    background: grey;
+    border: 0px solid lightgray;
+
+}
+
+nav{
+    background: grey;
+    padding:12px;
+    position: sticky;
+    top: 0;
+    
+}
+nav a{
+    color:white;
+    padding:12px;
+}
+footer{
+    
+    background-color: black;
+    padding:12px;
+
+
+    
+}
+footer center{
+    font-style: italic;
+    color: white;
+    padding: 12px;
+    
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+   min-width: 700px;
+    background: white;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    flex-wrap: wrap;
+}
+h1{
+    color:black;
+    size: 40px;
+    
+}
+.box{
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 7px;
+    height: fit-content;
+    color:black;
+
+}
+.box.big{
+    flex:5;
+}
+.box.small{
+    flex:2;
+}
+.box.medium{
+    flex:5;
+}
+p{
+    color: rgb(97, 97, 172);
+    width: 100%;
+    padding: 4px;
+    margin:10px auto;
+    font-style:italic;
+
+}
+span{
+    color: black;
+    width: 100%;
+    padding: 4px;
+    margin: 10px auto;
+    font-style: sans-serif;
+}
+h4{
+    color: black;
+    text-align: left;
+    
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+man{
+    color: rgb(112, 162, 112);
+    font-size: 17px;
+    font-family: sans-serif;
+    display: block;
+    padding: 10px;
+}
+pi{
+    float: left;
+    font-family: monos;
+    font-size: 14px;
+    margin: 10px;
+}
+.box.big.grid{
+    flex:5;
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+pa{
+    color: rgb(125, 146, 216);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.header h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contai{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.image img{
+    width: 180px;
+    height: 200px;
+}
+
+
+/*------------- End Css -----------------*/
